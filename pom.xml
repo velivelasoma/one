@@ -15,7 +15,12 @@
         <maven.compiler.source>1.8</maven.compiler.source> <!-- Set Java version -->
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    
+    <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.2.3</version> <!-- or another compatible version -->
+</plugin>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
